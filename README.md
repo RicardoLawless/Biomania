@@ -5,6 +5,6 @@ dos estudantes do ensino básico ao médio sobre a biologia celular oferecendo u
 onde poderam estudar de forma interativa.
 Nossos objetivos são claros quanto a trazer um conteúdo interativo e
 de fácil acesso auxiliando no desenvovimento e aprendizagem sobre a biologia celular.
-A metodologia aplicada conta com um site que mescla a diversão dos jogos e a 
+A metodologia aplicada conta mescla a diversão dos jogos e a 
 prática de exercícios onde o estudante poderá aplicar seus conhecimentos e se 
 divertir durante seus estudos.
