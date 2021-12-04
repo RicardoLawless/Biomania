@@ -1,5 +1,5 @@
 <DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Citologia</title>
 		<meta charset="UTF-8">
@@ -10,25 +10,25 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="">
 	</head>
-	<body>
+	<body class="fonte">
 		<!-- Cabeçalho -->
-		<div>
+		<div id="cabeçalho">
 			<header>
 				<h1>BioMania</h1>
 			</header>	
 		</div>
-		<section>
-			<div>
-				<button>
+		<section id="nave">
+			<div class="col-3">
+				<button  class="botao">
 					<a href="">Página Inical</a>
 				</button>
 			</div>
-			<div>
-				<button>
+			<div class="col-3">
+				<button  class="botao">
 					<a href="">Jogos</a>
 				</button>
 			</div>
-			<div>
+			<div class="col-3">
 				<form>
 					<label for="Busca">&#128270</label>
 					<input id="Busca"type="search" name="busca" placeholder="Pesquisar">
@@ -37,13 +37,20 @@
 		</section>
 		<!-- Conteúdo -->
 		<section>
-			<article>
-				<header>
+			<article class="artigo">
+				<header class="titulo-1">
 					<h2>
 						Citologia
 					</h2>
+				</header>
 					<p>
-						A biologia celular é o estudo da estrutura e função celular e gira em torno do conceito de que a célula é a unidade fundamental da vida. Focar na célula permite uma compreensão detalhada dos tecidos e organismos que as células constituem. organizados em grupos cooperativos com um grande número de células Em geral, a biologia celular concentra-se na estrutura e função de uma célula, desde as propriedades mais gerais compartilhadas por todas as células, até as funções específicas únicas e altamente complexas de células especializadas.
+						A biologia celular é o estudo da estrutura e função celular e gira em torno 
+						do conceito de que a célula é a unidade fundamental da vida. Focar na célula 
+						permite uma compreensão detalhada dos tecidos e organismos que as células
+					    constituem. organizados em grupos cooperativos com um grande número de 
+						células Em geral, a biologia celular concentra-se na estrutura e função de uma 
+						célula, desde as propriedades mais gerais compartilhadas por todas as células, 
+						até as funções específicas únicas e altamente complexas de células especializadas.
 					</p>
 					<p>
 						Existem vários subcampos principais dentro da biologia celular. Um deles é o 
@@ -93,7 +100,7 @@
 					</p>
 					<p>
 						Ele resumiu suas observações em três conclusões sobre células: 
-						<ol>
+						<ol class="lista-o">
 							<li>
 								A célula é a unidade de estrutura, fisiologia e organização dos seres vivos.
 							</li>
@@ -158,7 +165,6 @@
 						microscópios de citologia e reagentes, permitiram que esse campo progredisse, 
 						principalmente no ambiente clínico.
 					</p>
-				</header>
 			</article>
 		</section>
 		<hr>
@@ -175,8 +181,8 @@
 			</header>
 		</div>
 		<!-- Rodapé -->
-		<footer>
-			<div>
+		<footer id="rodape">
+			<div id"rod_conteudo">
 				&#169 Todos os Direitos Reservados ao Grupo BioMania<br>
 				<address>
 					<a href="#" class="fa fa-instagram"></a>
